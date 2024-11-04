@@ -13,5 +13,5 @@ def load_images():
 
 if __name__ == '__main__':
     images = load_images()
-    granulify = Granulify(images)
+    granulify = Granulify(images, display=True)
     granulify.run()
